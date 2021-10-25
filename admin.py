@@ -5,3 +5,4 @@ from .models import UserItem
 @admin.register(UserItem)
 class UserAdmin(admin.ModelAdmin):
     list_display = ('item_number','item_name','item_quantity')
+
