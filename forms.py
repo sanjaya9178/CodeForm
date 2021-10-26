@@ -7,4 +7,8 @@ class UserForm(forms.ModelForm):
         model=UserItem
         fields=['item_number','item_name','item_quantity']
 
-        https://smallbusiness.chron.com/sending-things-printer-python-58655.html
+     with open('convert.txt', 'w') as convert_file:
+        convert_file.write(json.dumps(dic))
+    print_val=os.startfile('convert.txt', "print")
+
+    return JsonResponse(print_val)
