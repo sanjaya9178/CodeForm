@@ -32,3 +32,6 @@ def show_printers(request):
         dc.EndDoc()
     except:
         print(traceback.print_exc())
+        
+        
+   https://stackoverflow.com/questions/57052994/how-to-create-a-print-dialog-box-in-python3
